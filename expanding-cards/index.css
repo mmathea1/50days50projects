@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.explore-container {
+    margin-top: 10%;
+    margin: 10% auto 0 auto;
+}
+
+.card-heading {
+    color: aliceblue;
+    margin-top: 46%;
+}
+
+.explore-card {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 5%;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+
+}
+
+.explore-card.active {
+    width: 70%;
+}
