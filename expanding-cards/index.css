@@ -6,8 +6,7 @@ body {
 }
 
 .explore-container {
-    margin-top: 10%;
-    margin: 10% auto 0 auto;
+    margin: 5% auto 0 auto;
 }
 
 .card-heading {
@@ -19,7 +18,7 @@ body {
     border: 1px solid transparent;
     border-radius: 50px;
     width: 5%;
-    height: 500px;
+    height: 600px;
     margin: 10px;
     display: flex;
     flex-direction: column;
