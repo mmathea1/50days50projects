@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 :root {
     --line-border-fill: #3498db;
     --line-border-empty: #e0e0e0;
@@ -8,6 +10,7 @@
 }
 
 body {
+    font-family: 'Muli', sans-serif;
     background-color: #f6f7fb;
     display: flex;
     align-items: center;
