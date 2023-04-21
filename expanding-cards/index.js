@@ -1,5 +1,13 @@
-document.addEventListener("click", function (e) {
-    var prevCard = document.getElementsByClassName('active')[0];
-    prevCard.classList.remove('active');
-    e.target.classList.add('active');;
+const panels = document.querySelectorAll('.panel');
+panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+        removeActiveClasses();
+        panel.classList.add('active');
+    });
 });
+
+function removeActiveClasses() {
+    panels.forEach(panel => {
+        panel.classList.remove('active');
+    });
+}
