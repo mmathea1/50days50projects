@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -8,6 +10,7 @@ html {
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,23 +41,41 @@ button {
     text-align: center;
     justify-content: center;
     align-items: center;
-    transition: all 0.5s ease;
+    transition: all 1s ease-in-out;
 
 }
 
 #ps {
-    background-color: blue;
+    background: url('ps.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(87, 84, 236, 0.7);
 
 }
+
 
 #ps button {
-    background-color: blue;
+    background-color: rgba(87, 84, 236, 1);
 }
 
+#ps button:hover {
+    background-color: rgba(87, 84, 236, 1);
+    border: 0;
+}
+
+
 #xbox {
-    background-color: red;
+    background: url('xbox.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(43, 43, 43, 0.5);
 }
 
 #xbox button {
-    background-color: red;
+    background-color: rgba(43, 43, 43, 0.8);
+}
+
+#xbox button:hover {
+    background-color: rgba(28, 122, 28, 1);
+    border: 0;
 }
