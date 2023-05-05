@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #4683B4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    width: 350px;
+    height: 400px;
+    background-color: rgb(43, 78, 109);
+    padding: 10px;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 10px;
+}
+
+input {
+    height: 50px;
+    border: 2px solid white;
+}
+
+.form input,
+label,
+button {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #ADD9E6;
+    color: black;
+    height: 50px;
+
+
+}
+
+a {
+    color: #ADD9E6;
+}
