@@ -32,25 +32,30 @@ h1 {
     flex-direction: column;
     height: fit-content;
     margin: 10px;
+    border-radius: 10px;
 }
 
 input {
     height: 50px;
-    border: 2px solid white;
+    border-bottom: 2px solid white;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 
 .form input,
 label,
 button {
     margin-top: 10px;
+
 }
 
 button {
     background-color: #ADD9E6;
     color: black;
     height: 50px;
-
-
+    border-radius: 10px;
 }
 
 a {
