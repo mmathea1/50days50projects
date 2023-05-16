@@ -16,16 +16,29 @@ body {
     overflow: hidden;
 }
 
-.container p {
-    display: inline-flex;
-    flex-direction: column;
+p {
     border: 1px solid #999999;
     background-color: #EEEEEE;
     text-align: center;
     padding: 20px 20px;
     font-size: 20px;
     font-weight: bold;
-    /* max-width: 200px; */
-    width: 250px;
+    min-width: 150px;
+}
+
+.key {
+    display: none;
+    flex-direction: column;
     margin: 10px;
+    position: relative;
+}
+
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #555;
+    font-size: 14px;
 }
