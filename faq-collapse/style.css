@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100vh;
+    /* margin: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F0F0F0;
+    overflow-x: hidden;
+}
+
+.accordion {
+    border: 1px solid #BDC1C5;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.faq-heading,
+.faq-content {
+    padding: 20px 20px;
+}
+
+.faq-heading {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.1s
+}
+
+.faq-content {
+    background-color: white;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+}
+
+.faq-input {
+    display: none;
+}
+
+.faq-input:checked~.faq-content {
+    display: block;
+
+}
+
+.faq-input:checked~.accordion div {
+    background-color: white;
+}

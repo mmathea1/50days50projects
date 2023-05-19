@@ -5,34 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <title>FAQ</title>
 </head>
 
 <body>
-    <h2>Frequently Asked Questions</h2>
-    <div class="accordion">Why shouldn't we trust atoms?</div>
-    <div class="panel">
-        <p>They make up everything</p>
-    </div>
+    <h1>Frequently Asked Questions</h1>
+    <div class="container">
+        <div class="accordion">
+            <div>
+                <input type="checkbox" class="faq-input" id="section1" />
+                <!-- <i class="fa fa-times-circle" aria-hidden="true"></i> -->
+                <label class="faq-heading" for="section1">Why shouldn't we trust atoms?</label>
+                <div class="faq-content">
+                    <p class="faq-text">They make up everything</p>
+                </div>
+            </div>
 
-    <div class="accordion">What do you call someone with no body and no nose?</div>
-    <div class="panel">
-        <p>Nobody knows.</p>
-    </div>
+        </div>
 
-    <div class="accordion">What's the object-oriented way to become wealthy?</div>
-    <div class="panel">
-        <p>Inheritance.</p>
-    </div>
 
-    <div class="accordion">How many tickles does it take to tickle an octopus?</div>
-    <div class="panel">
-        <p>Ten-tickles!</p>
-    </div>
+        <div class="accordion">
+            <div>
+                <input type="checkbox" class="faq-input" id="section2" />
+                <!-- <i class="fa fa-times-circle" aria-hidden="true"></i> -->
+                <label class="faq-heading" for="section2">What do you call someone with no body and no nose?</label>
+                <div class="faq-content">
+                    <p class="faq-text">Nobody knows.</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="accordion">What is: 1 + 1?</div>
-    <div class="panel">
-        <p>Depends on who are you asking.</p>
+
+        <div class="accordion">
+            <div>
+                <input type="checkbox" class="faq-input" id="section3" />
+                <!-- <i class="fa fa-times-circle" aria-hidden="true"></i> -->
+                <label class="faq-heading" for="section3">What's the object-oriented way to become wealthy?</label>
+                <div class="faq-content">
+                    <p class="faq-text">Inheritance.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion">
+            <div>
+                <input type="checkbox" class="faq-input" id="section4" />
+                <!-- <i class="fa fa-times-circle" aria-hidden="true"></i> -->
+                <label class="faq-heading" for="section4">How many tickles does it take to tickle an octopus?</label>
+                <div class="faq-content">
+                    <p class="faq-text">Ten-tickles!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion">
+            <div>
+                <input type="checkbox" class="faq-input" id="section5" />
+                <!-- <i class="fa fa-times-circle" aria-hidden="true"></i> -->
+                <label class="faq-heading" for="section5">What is: 1 + 1?</label>
+                <div class="faq-content">
+                    <p class="faq-text">Depends on who are you asking.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
