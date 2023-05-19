@@ -54,7 +54,3 @@ body {
     display: block;
 
 }
-
-.faq-input:checked~.accordion div {
-    background-color: white;
-}
