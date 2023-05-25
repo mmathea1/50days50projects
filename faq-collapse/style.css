@@ -31,7 +31,22 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
+    text-align: left;
 
+}
+
+.faq-heading::after {
+    content: "\02795";
+    float: right;
+    font-size: 18px;
+}
+
+.faq-heading {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 .faq-heading,
