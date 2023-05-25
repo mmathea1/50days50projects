@@ -17,7 +17,9 @@ body {
     overflow: hidden;
 }
 
-#input-area {}
+.container {
+    width: 500px;
+}
 
 #choices {
     margin: 20px;
@@ -43,7 +45,7 @@ textarea {
     line-height: 10px;
 }
 
-.choice {
+.tag {
     border-radius: 50px;
     color: #fff;
     background-color: #F0922B;
@@ -53,6 +55,6 @@ textarea {
     margin: 0 5px 10px 0;
 }
 
-.choice.highlight {
+.tag.highlight {
     background-color: #273c75;
 }
