@@ -46,3 +46,10 @@ i {
     width: 100%;
     height: 50%;
 }
+
+#closed-nav {
+    height: 80px;
+    width: 80px;
+    transition: all 0.1ms ease-in-out;
+    display: none;
+}
