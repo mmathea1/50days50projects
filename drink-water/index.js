@@ -16,7 +16,7 @@ function highlightCups(idx) {
     }
 
     smallCups.forEach((cup, idx2) => {
-        if (idx2, idx) {
+        if (idx2 <= idx) {
             cup.classList.add("full")
         } else {
             cup.classList.remove("full");
